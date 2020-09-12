@@ -23,12 +23,10 @@
              deck.push(tipo+esp)
          }
      }
+ deck = _.shuffle( deck );
 
-     console.log('Deck normal', deck);
+ return deck;
      
-     deck = _.shuffle( deck );
-     
-     console.log('Deck Shuffle', deck);
  }
 
  crearDeck();
