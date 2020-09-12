@@ -1,0 +1,24 @@
+body, html{
+    margin: 0;
+    background: cadetblue;
+    color: blanchedalmond;
+}
+
+.header-styke{
+    text-align: center;
+    background: black;
+    font-size: 24px;
+    padding: 1rem;
+}
+
+.carta{
+    width: 100px;
+    position: relative;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#jugador-computadora-cartas,
+#jugador-cartas{
+    height: 200px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+</head>
+<body>
+
+    <header class="header-styke">Blackjack</header>
+
+    <div class="row mt-2">
+
+        <div class="col text-center">
+            <button class="btn btn-success">New Game</button>
+            <button class="btn btn-primary"> Pedir Carta </button>
+            <button class="btn btn-primary"> Stop </button>
+
+        </div>
+
+    </div>
+    <!-- JUGADOR -->
+    <div class="row container ">
+        <div class="col ">
+            <h3 >Jugador 1 - <small>0</small> </h3>
+            <div id="jugador-cartas">
+                <img class="carta" src="assets/cartas/10C.png" alt="">
+                <img class="carta" src="assets/cartas/10C.png" alt="">
+                <img class="carta" src="assets/cartas/10C.png" alt="">
+                <img class="carta" src="assets/cartas/10C.png" alt="">
+                <img class="carta" src="assets/cartas/10C.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- COMPUTADORA -->
+    <div class="row container mt-3">
+        <div class="col ">
+            <h3 >Jugador 1 - <small>0</small> </h3>
+            <div id="jugador-computadora-cartas">
+                <img class="carta" src="assets/cartas/10C.png" alt="">
+                <img class="carta" src="assets/cartas/10C.png" alt="">
+                <img class="carta" src="assets/cartas/10C.png" alt="">
+                <img class="carta" src="assets/cartas/10C.png" alt="">
+                <img class="carta" src="assets/cartas/10C.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="assets/js/underscore-min.js"></script>
+    <script src="assets/js/juego.js"></script>
+
+</body>
+</html>
