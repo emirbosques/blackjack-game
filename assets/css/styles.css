@@ -2,6 +2,7 @@ body, html{
     margin: 0;
     background: cadetblue;
     color: blanchedalmond;
+    overflow: hidden;
 }
 
 .header-styke{

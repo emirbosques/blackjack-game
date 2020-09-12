@@ -16,12 +16,15 @@
 
     <div class="row mt-2">
 
-        <div class="col text-center">
+        <div class="col-12 text-center">
             <button id='newGame' class="btn btn-success">New Game</button>
             <button id='pedirCarta' class="btn btn-primary"> Pedir Carta </button>
             <button id='stopGame' class="btn btn-primary"> Stop </button>
-
         </div>
+
+        <!-- MENSAJE -->
+        <div hidden="true" class=" ml-5 mt-3 alert alert-primary" role="alert" 
+        id="mensajeJuego" class="col-12"></div>
 
     </div>
     <!-- JUGADOR -->
@@ -38,7 +41,7 @@
         <div class="col ">
             <h3>Computadora - <small>0</small> </h3>
             <div id="jugador-computadora-cartas">
-                <img class="carta" src="assets/cartas/10C.png" alt="">
+                <!-- <img class="carta" src="assets/cartas/10C.png" alt=""> -->
             </div>
         </div>
     </div>
